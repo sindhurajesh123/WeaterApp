@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@700&family=Poppins:wght@200;500&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    text-align: center;
+}
+body{
+ background-image: url(./image/cloud2.jpg);
+ background-size: cover;
+}
+.container{
+    width:500px;
+    height: 500px;
+    margin:250px auto;
+    background-image: url("./image/cloud\ 4.jpg");
+    box-sizing: cover;
+    padding: 50px;
+    border-radius: 10px;
+}
+#heading{
+    color: blue;
+    padding: 20px;
+}
+input[type="text"]{
+margin-top: 8px;
+height:3rem;
+width:280px;
+border-radius: 7px;
+border: 2px solid white;
+outline: none;
+padding: 10px;
+font-size: 20px;
+margin-bottom: 20px;
+
+}
+input:focus{
+    background-color: antiquewhite;
+    color: rgb(44, 70, 74);
+    border-color: blue;
+    box-shadow: 0 0 0 0.2rem rgb(0,123,255,25%);
+}
+   input[type="button"]{
+    background-color:rgb(197, 168, 51) ;
+    height:3.2rem;
+    width: 200px;
+    color: beige;
+    font-size:30px;
+    outline: none;
+    border-radius: 8px;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+
+   } 
+   .result{
+    color: bisque;
+    padding: 20px;
+   }
+    
+
+
+
+
+
